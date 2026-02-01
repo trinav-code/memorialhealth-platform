@@ -1,0 +1,5 @@
+database:
+  engine: postgres
+  encryption:
+    at_rest: AES-256-CBC
+    in_transit: TLS1.2
